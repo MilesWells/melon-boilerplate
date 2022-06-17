@@ -9,9 +9,9 @@ import {
 	pool,
 } from 'melonjs/dist/melonjs.module.js';
 
-import TitleScreen from './js/stage/title';
-import PlayScreen from './js/stage/play';
-import PlayerEntity from './js/renderables/player';
+import TitleScreen from './stage/title';
+import PlayScreen from './stage/play';
+import PlayerEntity from './renderables/player';
 import DataManifest from './manifest';
 
 device.onReady(() => {
@@ -23,7 +23,7 @@ device.onReady(() => {
 
 	// initialize the debug plugin in development mode.
 	if (process.env.NODE_ENV === 'development') {
-		import('./js/plugin/debugPanel').then((debugPlugin) => {
+		import('./plugin/debugPanel').then((debugPlugin) => {
 			// automatically register the debug panel
 			utils.function.defer(
 				plugin.register,
