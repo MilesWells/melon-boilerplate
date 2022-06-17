@@ -2,19 +2,34 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <title>melonJS boilerplate</title>
-  <link rel="stylesheet" src="/src/index.css" />
+	<meta charset="utf-8" />
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>melonJS boilerplate</title>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		#screen {
+			width: 100vw;
+			height: 100vh;
+		}
+
+		#screen canvas {
+			margin: auto;
+			display: block;
+		}
+
+	</style>
 </head>
 
 <body>
-  <!-- Canvas placeholder -->
-  <div id="screen"></div>
-  <script type="module" src="/src/index.js"></script>
+	<!-- Canvas placeholder -->
+	<div id="screen"></div>
+	<script type="module" src="/src/index.js"></script>
 </body>
 
 </html>

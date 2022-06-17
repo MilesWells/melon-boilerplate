@@ -1,14 +1,15 @@
 {
-  "name": "melonjs-boilerplate",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Miles Wells",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc --noEmit && vite build"
-  },
-  "dependencies": {
-    "melonjs": "^10.11.0",
-    "vite": "^2.9.12"
-  }
+	"name": "melonjs-boilerplate",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Miles Wells",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc --noEmit && vite build",
+		"start": "vite dev"
+	},
+	"dependencies": {
+		"melonjs": "^10.11.0",
+		"vite": "^2.9.12"
+	}
 }
